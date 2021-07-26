@@ -18,6 +18,7 @@ before_script:
 - chmod +x ./cc-test-reporter
 - "./cc-test-reporter before-build"
 script:
+- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 - make test-docker
 after_script:
 - make test-install
@@ -39,4 +40,4 @@ notifications:
     on_success: never
     on_failure: change
     rooms:
-      secure: damw3UZJAjoUy2Wsf9/DWT5XHIJ4DcRucS/sLPVEyynSRqhzJlxGL7gLQ2fdtMNDY+1fs4UhzYzpUIdu+Tz2mSdZlv1kRY5zIWwJ5JK+9PACt5wVXpKN794JGKcDXOh64Bqrd3ofXkyecI2OyTVNdcTu370K/Tlz3xhHvdBqpU0=
+      secure: B0SJHc9Syyf5HOl21abg/Uj/Gp7EusCOly/2JZzUUHCWtxC8C9pWfGf2e674R4vdeJ3FmTKz/1jJZ96vzV0z+XUpT2Fnn6URi4kjI8C0XNTs8la+bz5riSM4TokYOv0HGbL/r0OmHraodCxuX1rpkcYX+FD1dwcGC70eEB6NIu4=
