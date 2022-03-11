@@ -1,6 +1,5 @@
 import io
 import os
-from distutils.file_util import copy_file
 from setuptools import setup, find_packages
 
 
@@ -11,7 +10,7 @@ with open('sendgrid/version.py') as f:
 def getRequires():
     deps = [
         'python_http_client>=3.2.1',
-        'starkbank-ecdsa>=1.0.0,<2.0.0'
+        'starkbank-ecdsa>=2.0.1'
     ]
     return deps
 
@@ -39,5 +38,8 @@ setup(
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+        'Programming Language :: Python :: 3.9',
+        'Programming Language :: Python :: 3.10',
     ]
 )

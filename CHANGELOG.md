@@ -1,6 +1,72 @@
 # Change Log
 All notable changes to this project will be documented in this file.
 
+[2022-03-09] Version 6.9.7
+--------------------------
+**Library - Chore**
+- [PR #1048](https://github.com/sendgrid/sendgrid-python/pull/1048): Update mail_example.py. Thanks to [@vmesel](https://github.com/vmesel)!
+- [PR #1049](https://github.com/sendgrid/sendgrid-python/pull/1049): push Datadog Release Metric upon deploy success. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #1050](https://github.com/sendgrid/sendgrid-python/pull/1050): fix flask dependency test issues. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+
+
+[2022-02-09] Version 6.9.6
+--------------------------
+**Library - Chore**
+- [PR #1044](https://github.com/sendgrid/sendgrid-python/pull/1044): drop pytest which was not being used. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #1043](https://github.com/sendgrid/sendgrid-python/pull/1043): upgrade supported language versions. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+- [PR #1041](https://github.com/sendgrid/sendgrid-python/pull/1041): add gh release to workflow. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+- [PR #1039](https://github.com/sendgrid/sendgrid-python/pull/1039): merge test and deploy workflows. Thanks to [@Hunga1](https://github.com/Hunga1)!
+
+
+[2022-01-26] Version 6.9.5
+--------------------------
+**Library - Docs**
+- [PR #1036](https://github.com/sendgrid/sendgrid-python/pull/1036): Removing unused json import. Thanks to [@vital101](https://github.com/vital101)!
+
+
+[2022-01-12] Version 6.9.4
+--------------------------
+**Library - Chore**
+- [PR #1031](https://github.com/sendgrid/sendgrid-python/pull/1031): Remove unused import from distutils. Thanks to [@tirkarthi](https://github.com/tirkarthi)!
+
+**Library - Docs**
+- [PR #1032](https://github.com/sendgrid/sendgrid-python/pull/1032): remove leading spaces on error handling example. Thanks to [@thinkingserious](https://github.com/thinkingserious)!
+
+
+[2021-12-15] Version 6.9.3
+--------------------------
+**Library - Test**
+- [PR #1029](https://github.com/sendgrid/sendgrid-python/pull/1029): split up unit and integ tests. Thanks to [@childish-sambino](https://github.com/childish-sambino)!
+
+
+[2021-12-01] Version 6.9.2
+--------------------------
+**Library - Chore**
+- [PR #1027](https://github.com/sendgrid/sendgrid-python/pull/1027): migrate to GitHub Actions. Thanks to [@JenniferMah](https://github.com/JenniferMah)!
+
+
+[2021-11-17] Version 6.9.1
+--------------------------
+**Library - Chore**
+- [PR #1022](https://github.com/sendgrid/sendgrid-python/pull/1022): fix vulnerability in starbank-ecdsa dependency. Thanks to [@hellno](https://github.com/hellno)!
+
+
+[2021-11-03] Version 6.9.0
+--------------------------
+**Library - Feature**
+- [PR #1020](https://github.com/sendgrid/sendgrid-python/pull/1020): allow personalization of the From name and email for each recipient. Thanks to [@beebzz](https://github.com/beebzz)!
+
+
+[2021-10-18] Version 6.8.3
+--------------------------
+**Library - Chore**
+- [PR #1016](https://github.com/sendgrid/sendgrid-python/pull/1016): pin starkbank-ecdsa version. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+- [PR #1015](https://github.com/sendgrid/sendgrid-python/pull/1015): pin starkbank-ecdsa version. Thanks to [@eshanholtz](https://github.com/eshanholtz)!
+
+**Library - Docs**
+- [PR #1013](https://github.com/sendgrid/sendgrid-python/pull/1013): improve signed event webhook validation docs. Thanks to [@shwetha-manvinkurke](https://github.com/shwetha-manvinkurke)!
+
+
 [2021-09-22] Version 6.8.2
 --------------------------
 **Library - Chore**
